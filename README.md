@@ -1,4 +1,9 @@
 # SemanaOmniStack_11
+
+## A APLICAÇÃO
+
+
+
 ## PRIMEIRO DIA
 
 Instalação NODE
@@ -41,10 +46,15 @@ Nodemon
         npm start
 
 KNEX.JS
-    Instalação no projeto:
-        npm install knex
 
-        npm install sqlite3
+    Instalação no projeto:
+        
+        Executar os seguintes comandos no terminal, estando no diretório do projeto.
+            npm install knex
+    
+            npm install sqlite3
+            Comando pode variar pelo sistema de banco de dados que será utilizado.
+            
 
     Criar tabela:
         
@@ -56,11 +66,14 @@ KNEX.JS
 
 
 Aplicação:
+
     Entidades:
+    
         - ONG
         - Casos (incident)
 
     Funcionalidades:
+    
         - Login de ONG
         - Logout de ONG
         - Cadastro de ONG
