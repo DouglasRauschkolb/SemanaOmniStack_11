@@ -32,9 +32,11 @@ Iniciando o projeto:
 ## SEGUNDO DIA
 
 Instalação Insomnia
+    
 
 
 Nodemon
+    
     npm install nodemon -D  
 
     Modificar script em 'package.json'
