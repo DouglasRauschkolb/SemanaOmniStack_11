@@ -15,6 +15,9 @@ Iniciando o projeto:
     -Backend:
         Executar no terminal o seguinte comando:
             npm install express
+
+        Rodar a aplicação:
+            node index.js
             
     -Frontend:
         React:
@@ -22,6 +25,51 @@ Iniciando o projeto:
             npx create-react-app frontend
             
 ## SEGUNDO DIA
+
+Instalação Insomnia
+
+
+Nodemon
+    npm install nodemon -D  
+
+    Modificar script em 'package.json'
+        "scripts": {
+            "start": "nodemon index.js"
+        }
+
+    Iciciar no terminal
+        npm start
+
+KNEX.JS
+    Instalação no projeto:
+        npm install knex
+
+        npm install sqlite3
+
+    Criar tabela:
+        
+        npx knex migrate:make create_nomeTabela
+
+        Executar migration:
+            npx knex migrate:latest
+
+
+
+Aplicação:
+    Entidades:
+        - ONG
+        - Casos (incident)
+
+    Funcionalidades:
+        - Login de ONG
+        - Logout de ONG
+        - Cadastro de ONG
+        - Cadastrar novos casos
+        - Deletar casos
+        - Listar casos especificos de uma ONG
+        - Listar todos os casos
+        - Entrar em contato com a ONG
+
 ## TERCEIRO DIA
 ## QUARTO DIA
 ## QUINTO DIA
