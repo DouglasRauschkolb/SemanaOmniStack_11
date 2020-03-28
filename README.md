@@ -93,4 +93,33 @@ Comunicar com o Back End(API):
 npm install axios
 
 ## QUARTO DIA
+
+    Instalando o EXPO:
+        npm install -g expo-cli
+
+    Iniciar projeto Mobile:
+        expo init mobile
+
+    Rodar a aplicação:
+        npm start
+
+    Usando o pacote de navegação:
+        npm install @react-navigation/native
+
+        expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+        npm install @react-navigation/stack
+
+        expo install expo-constants
+
+    E-mail
+
+        expo install expo-mail-composer
+
+    Conectar com API
+
+        npm install axios
+
+        npm install intl
+
 ## QUINTO DIA
