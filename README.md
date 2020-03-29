@@ -123,3 +123,25 @@ npm install axios
         npm install intl
 
 ## QUINTO DIA
+
+    Biblioteca para validações:
+        
+    Back End:
+
+        npm install celebrate
+
+    Cofigunrando testes:
+
+        npm install jest -D
+
+        npx jest --init
+
+    Executar testes criados:
+     
+        npm test
+    
+    Configurando banco de dados para teste:
+
+        npm install cross-env
+
+        npm install supertest -D
