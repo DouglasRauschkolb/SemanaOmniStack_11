@@ -87,10 +87,11 @@ Aplicação:
 
 ## TERCEIRO DIA
 
-Construção do Front End
-
-Comunicar com o Back End(API):
-npm install axios
+    Construção do Front End
+    
+    Comunicar com o Back End(API):
+    
+        npm install axios
 
 ## QUARTO DIA
 
