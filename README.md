@@ -1,4 +1,5 @@
 # SemanaOmniStack_11
+![logo@3x](https://user-images.githubusercontent.com/46462821/80552292-90796600-899c-11ea-882a-4df1778c90dd.png)
 
 ## A APLICAÇÃO
     O projeto desenvolvido na Semana Omnistack 11 da Rocketseat, consiste em um aplicativo 
