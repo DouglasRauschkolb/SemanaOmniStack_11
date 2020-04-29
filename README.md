@@ -4,6 +4,8 @@
     O projeto desenvolvido na Semana Omnistack 11 da Rocketseat, consiste em um aplicativo 
     que liga as pessoas que desejam ajudar com os casos cadastrados pelas ONGs.
     
+    Você pode visualizar o layout do projeto no formato através[desse link](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=37%3A394). Lembrando que você irá precisar ter uma conta no Figma.
+    
 ## TECNOLOGIAS
     NODE.JS
     REACT
