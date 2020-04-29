@@ -2,7 +2,7 @@
 
 ## A APLICAÇÃO
     O projeto desenvolvido na Semana Omnistack 11 da Rocketseat, consiste em um aplicativo 
-    que liga as pessoas que desejam ajudar com os casos cadastrados pelas ONGs.
+    que busca ligar as pessoas que desejam ajudar ONGs, através do cadastro de casos.
     
 ## TECNOLOGIAS
     NODE.JS
