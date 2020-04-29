@@ -6,7 +6,7 @@ import * as MailComposer from 'expo-mail-composer';
 
 import styles from './styles';
 
-import logoImg from '../assets/logo.png';
+import logoImg from '../../assets/logo.png';
 
 export default function Detail () {
   const navigation = useNavigation();
@@ -14,7 +14,7 @@ export default function Detail () {
 
   const incident = route.params.incident; 
 
-  const mensage = 'Olá APAD, estou entrando em contato pois gostaria de ajudar no caso "Caso" com o valor de R$100,00.'
+  const mensage = `Olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso "${incident.title}" com o valor de ${Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL' }).format(incident.value)}.`
  
   function navigateBack() {
     navigation.goBack();
@@ -23,13 +23,13 @@ export default function Detail () {
   function sendMail() {
     MailComposer.composeAsync({
       subject: 'Herói do caso: Caso',
-      recipients: ['douglasrauschkolb97@gmail.com'],
+      recipients: ['email@gmail.com'],
       body: mensage
     })
   }
 
   function sendWhatsapp(){
-    Linking.openURL(`whatsapp://send?phone=+555496835817&text=${mensage}`)
+    Linking.openURL(`whatsapp://send?phone=+5554999999999&text=${mensage}`)
   }
 
   return (
