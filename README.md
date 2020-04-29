@@ -1,24 +1,43 @@
 # SemanaOmniStack_11
 
 ## A APLICAÇÃO
+    O projeto desenvolvido na Semana Omnistack 11 da Rocketseat, consiste em um aplicativo 
+    que liga as pessoas que desejam ajudar com os casos cadastrados pelas ONGs.
+    
+## TECNOLOGIAS
+    NODE.JS
+    REACT
+    REACT NATIVE
+    EXPO
+    
+## EXECUTAR O PROJETO
+    Faça o download do projeto o clone com o 'git clone'.
+    
+    Tanto para o backend, frontend e mobile execute os seguintes comandos.
+    
+        Instalação das depêndencias:
+            npm install
+            
+        Iniciar a aplicação:
+            npm start
+    
 
-
-
+## ALGUMAS INSTRUÇÕES UTILIZADAS DURANTE A CONSTRUÇÃO DO PROJETO
 ## PRIMEIRO DIA
 
 Instalação NODE
 
-    -Ubuntu:
-        Abrir o terminal e executar os seguintes comandos;
+    -Linux:
+    
+        Abrir o terminal e executar os seguintes comandos:
+        
             curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
             sudo apt-get install -y nodejs
 
-Iniciando o projeto:
-
-    Criar pastas para o projeto
+# Iniciando o projeto:
 
     -Backend:
-        Executar no terminal o seguinte comando:
+        Executar no terminal o seguinte comando para utilização do express framework:
             npm install express
 
         Rodar a aplicação:
@@ -26,29 +45,28 @@ Iniciando o projeto:
             
     -Frontend:
         React:
-        Executar no terminal o seguinte comando:
-            npx create-react-app frontend
+            Executar no terminal o seguinte comando para a criação do projeto com react:
+                npx create-react-app frontend
             
 ## SEGUNDO DIA
 
-Instalação Insomnia
-    
-
-
 Nodemon
+    Utilizado para fazer o reload automático do projeto.
     
-    npm install nodemon -D  
+    Instalaçao:
+        npm install nodemon -D  
 
-    Modificar script em 'package.json'
-        "scripts": {
-            "start": "nodemon index.js"
-        }
+        Modificar script em 'package.json'
+            "scripts": {
+                "start": "nodemon index.js"
+            }
 
-    Iciciar no terminal
+    Iniciar no terminal
         npm start
 
 KNEX.JS
-
+    Utilizado para a criação e manutenção do banco de dados usado pelo projeto.
+    
     Instalação no projeto:
         
         Executar os seguintes comandos no terminal, estando no diretório do projeto.
@@ -57,7 +75,6 @@ KNEX.JS
             npm install sqlite3
             Comando pode variar pelo sistema de banco de dados que será utilizado.
             
-
     Criar tabela:
         
         npx knex migrate:make create_nomeTabela
@@ -65,9 +82,7 @@ KNEX.JS
         Executar migration:
             npx knex migrate:latest
 
-
-
-Aplicação:
+Aplicação do projeto BE THE HERO:
 
     Entidades:
     
@@ -84,6 +99,7 @@ Aplicação:
         - Listar casos especificos de uma ONG
         - Listar todos os casos
         - Entrar em contato com a ONG
+        
 
 ## TERCEIRO DIA
 
